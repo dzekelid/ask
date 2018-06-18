@@ -4,7 +4,7 @@ x-collection-name: Google Fusion Tables
 x-complete: 1
 info:
   title: Fusion Tables
-  description: api-for-working-with-fusion-tables-data
+  description: api-for-working-with-fusion-tables-data-
   contact:
     name: Google
     url: https://google.com

@@ -1,24 +1,21 @@
 ---
 name: Box
 x-slug: box
-description: Box Inc. (formerly Box.net) is an online file sharing and Cloud content
-  management service for enterprise companies. The company has adopted a freemium
-  business model, and provides 5 GB of free storage [3] for personal accounts. A mobile
-  version of the service is available for Android, BlackBerry, iOS, WebOS, and Windows
-  Phone devices. The company is based in Los Altos, California.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+description: Box is changing how you manage content across your business from simple
+  file sharing to building custom apps.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "443"
 tags: Ask
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Box Get File's Tasks
   x-api-slug: box
   description: Retrieves all of the tasks for given file.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//files/{FILE_ID}/tasks
   tags: Documents,Files, File, , Tasks
@@ -30,7 +27,7 @@ apis:
 - name: Box Create Task
   x-api-slug: box
   description: Used to create a single task for single user on a single file.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//tasks
   tags: Documents,Tasks
@@ -40,7 +37,7 @@ apis:
 - name: Box Get Task
   x-api-slug: box
   description: Fetches a specific task.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//tasks/{TASK_ID}
   tags: Documents,Tasks, Task
@@ -52,7 +49,7 @@ apis:
 - name: Box Update Task
   x-api-slug: box
   description: Updates a specific task.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//tasks/{TASK_ID}
   tags: Documents,Tasks, Task
@@ -62,7 +59,7 @@ apis:
 - name: Box Delete Task
   x-api-slug: box
   description: Permanently deletes a specific task.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//tasks/{TASK_ID}
   tags: Documents,Tasks, Task
@@ -74,7 +71,7 @@ apis:
 - name: Box Get Assignments
   x-api-slug: box
   description: Retrieves all of the assignments for a given task.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//tasks/{TASK_ID}/assignments
   tags: Documents,Tasks, Task, , Assignments
@@ -87,7 +84,7 @@ apis:
   x-api-slug: box
   description: Used to assign a task to a single user. There can be multiple assignments
     on a given task.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//task_assignments
   tags: Documents,Task, Assignments
@@ -97,7 +94,7 @@ apis:
 - name: Box Get Task Assignment
   x-api-slug: box
   description: Fetches a specific task assignment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//task_assignments/{TASK_ASSIGNMENT_ID}
   tags: Documents,Task, Assignments, Task, Assignment
@@ -109,7 +106,7 @@ apis:
 - name: Box Update Task Assignment
   x-api-slug: box
   description: Used to update a task assignment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//task_assignments/{TASK_ASSIGNMENT_ID}
   tags: Documents,Task, Assignments, Task, Assignment
@@ -119,7 +116,7 @@ apis:
 - name: Box Delete Task Assignment
   x-api-slug: box
   description: Deletes a specific task assignment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//task_assignments/{TASK_ASSIGNMENT_ID}
   tags: Documents,Task, Assignments, Task, Assignment
@@ -132,7 +129,7 @@ apis:
   x-api-slug: box
   description: Box.net provides a sophisticated API for their online document sharing
     and collaboration web application.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Ask
@@ -148,6 +145,8 @@ x-common:
   url: http://blog.box.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/box
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/box
 - type: x-developer
   url: http://developers.box.com
 - type: x-github
@@ -158,6 +157,8 @@ x-common:
   url: https://developers.box.com/roadmap/
 - type: x-twitter
   url: https://twitter.com/BoxPlatform
+- type: x-twitter
+  url: https://twitter.com/BoxHQ
 - type: x-website
   url: http://box.com
 include: []

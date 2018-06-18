@@ -7,10 +7,10 @@ description: The Google Tasks API lets you search, read, and update Google Tasks
   access and edit Google Tasks data.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-tasks-icon.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Ask
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/google-tasks/apis.md
 specificationVersion: "0.14"
 apis:

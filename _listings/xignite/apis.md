@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Ask
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,90 +18,90 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateTablesBidAsk
-  tags: Historical, Cross, Rate, Tables, Bid, Ask
+  tags: Market Data,Historical, Cross, Rate, Tables, Bid, Ask
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratetablesbidask-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
 - name: Xignite Currencies Get Historical Cross Rate Table Bid Ask
   x-api-slug: xignite-currencies
   description: Returns a historical currency cross-rate table.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateTableBidAsk
-  tags: Historical, Cross, Rate, Table, Bid, Ask
+  tags: Market Data,Historical, Cross, Rate, Table, Bid, Ask
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratetablebidask-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
 - name: Xignite Currencies Get Real Time Cross Rate Table With Bid Ask
   x-api-slug: xignite-currencies
   description: Returns a real-time currency cross-rate table.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetRealTimeCrossRateTableWithBidAsk
-  tags: Real, Time, Cross, Rate, Table, With, Bid, Ask
+  tags: Market Data,Real, Time, Cross, Rate, Table, With, Bid, Ask
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/getrealtimecrossratetablewithbidask-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/getrealtimecrossratetablewithbidask-get-openapi.md
 - name: Xignite Currencies Get Historical Cross Rate Bid Ask
   x-api-slug: xignite-currencies
   description: Returns a cross-rate with bid/ask as of a historical date.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateBidAsk
-  tags: Historical, Cross, Rate, Bid, Ask
+  tags: Market Data,Historical, Cross, Rate, Bid, Ask
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratebidask-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
 - name: Xignite Currencies Get Historical Cross Rates Bid Ask
   x-api-slug: xignite-currencies
   description: Returns multiple cross-rates with bid/ask as of a historical date.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRatesBidAsk
-  tags: Historical, Cross, Rates, Bid, Ask
+  tags: Market Data,Historical, Cross, Rates, Bid, Ask
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratesbidask-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
 - name: Xignite Currencies Get Historical Cross Rates Bid Ask Range
   x-api-slug: xignite-currencies
   description: This operation returns a range of cross-rates for a currency pair.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRatesBidAskRange
-  tags: Historical, Cross, Rates, Bid, Ask, Range
+  tags: Market Data,Historical, Cross, Rates, Bid, Ask, Range
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratesbidaskrange-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
 - name: Xignite Currencies Get Historical Cross Rates Bid Ask As Of
   x-api-slug: xignite-currencies
   description: This operation returns a range of cross-rates for a currency pair.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRatesBidAskAsOf
-  tags: Historical, Cross, Rates, Bid, Ask, As, Of
+  tags: Market Data,Historical, Cross, Rates, Bid, Ask, As, Of
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratesbidaskasof-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/gethistoricalcrossratesbidaskasof-get-openapi.md
 - name: Xignite Currencies Get Official Cross Rate Bid Ask
   x-api-slug: xignite-currencies
   description: Returns an official cross-rate as of a historical date.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetOfficialCrossRateBidAsk
-  tags: Official, Cross, Rate, Bid, Ask
+  tags: Market Data,Official, Cross, Rate, Bid, Ask
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/getofficialcrossratebidask-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/getofficialcrossratebidask-get-openapi.md
 - name: Xignite Currencies Get Official Cross Rates Bid Ask
   x-api-slug: xignite-currencies
   description: Returns an official cross-rate as of a historical date.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetOfficialCrossRatesBidAsk
-  tags: Official, Cross, Rates, Bid, Ask
+  tags: Market Data,Official, Cross, Rates, Bid, Ask
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/getofficialcrossratesbidask-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/getofficialcrossratesbidask-get-openapi.md
 - name: Xignite Currencies
   x-api-slug: xignite-currencies
   description: Financial market data on-demand. Xignite financial Web services help
@@ -114,7 +114,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -174,6 +174,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []

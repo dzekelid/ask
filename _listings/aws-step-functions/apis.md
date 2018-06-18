@@ -17,10 +17,10 @@ description: AWS Step Functions makes it easy to coordinate the components of di
   any scale.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Ask
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/aws-step-functions/apis.md
 specificationVersion: "0.14"
 apis:

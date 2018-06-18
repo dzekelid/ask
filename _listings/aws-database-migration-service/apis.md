@@ -15,10 +15,10 @@ description: AWS Database Migration Service helps you migrate databases to AWS e
   high-availability.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Ask
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ask/master/_listings/aws-database-migration-service/apis.md
 specificationVersion: "0.14"
 apis:
